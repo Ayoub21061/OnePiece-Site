@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS-only Marquee Menu Effect | Codrops</title>
+	<meta name="description" content="A menu with a css-only marquee hover effect" />
+	<meta name="keywords" content="marquee, css, animation, loop, infinite, hover, menu, navigation" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/zhq0vyf.css">
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
+	<!--script src="//tympanus.net/codrops/adpacks/analytics.js"></script-->
+</head>
+
+<body class="demo-1">
+	<main>
+		<div class="frame">
+			<div class="frame__title-wrap">
+				<h1 class="frame__title">GearFifth</h1>
+				<p class="frame__info">based on Francesco Zagami's <a href="https://dribbble.com/shots/9524661-Homepage-Menu-Interaction">Dribbble shot</a></p>
+			</div>
+			<div class="frame__links">
+				<a href="https://tympanus.net/codrops/?p=48796">Article</a>
+				<a href="https://github.com/codrops/CSSMarqueeMenu/">GitHub</a>
+			</div>
+		</div>
+		<nav class="menu">
+			<div class="menu__item">
+				<a href="#Résumé-1" class="menu__item-link">Résumé</a>
+				<img class="menu__item-img" src="https://www.gifcen.com/wp-content/uploads/2024/04/luffy-gear-5-2.gif" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Résumé</span>
+                        <span>Résumé</span>
+                        <span>Résumé</span>
+                        <span>Résumé</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">Révélation</a>
+				<img class="menu__item-img" src="https://64.media.tumblr.com/257b082b820f3c9987795ba953f692b6/ca06b418be98ba2a-9e/s540x810/16035f20e5152fc475d5f9df8e66bfe9bcd8165f.gifv" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Révélation</span>
+						<span>Révélation</span>
+						<span>Révélation</span>
+						<span>Révélation</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">Combat</a>
+				<img class="menu__item-img" src="https://giffiles.alphacoders.com/220/220069.gif" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Combat</span>
+						<span>Combat</span>
+						<span>Combat</span>
+						<span>Combat</span>
+					</div>
+				</div>
+			</div>
+			<div class="menu__item">
+				<a class="menu__item-link">Pouvoirs</a>
+				<img class="menu__item-img" src="https://giffiles.alphacoders.com/220/220000.gif" alt="Some image"/>
+				<div class="marquee">
+					<div class="marquee__inner" aria-hidden="true">
+						<span>Pouvoirs</span>
+						<span>Pouvoirs</span>
+						<span>Pouvoirs</span>
+						<span>Pouvoirs</span>
+					</div>
+				</div>
+			</div>
+
+		</nav>
+	</main>
+	<!--script src="https://tympanus.net/codrops/adpacks/cda.js"></script-->
+	<div class="Summary">
+    	<div class="Resume" id="Résumé-1">
+        	<h2>Résumé</h2> 
+        	<p>Pour voir si ça foncitonne </p> 
+    	</div>
+
+
+	</div>
+</body>
+
+</html>
